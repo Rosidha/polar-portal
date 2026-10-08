@@ -95,4 +95,27 @@ table{width:100%;border-collapse:collapse}th,td{text-align:left;padding:10px;bor
 .brand {
   display: flex;
   align-items: center;
+}.paper-box {
+  background: transparent !important;
+  color: #ffffff;
+  padding: 0 !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+}
+
+.paper-box h1 {
+  color: #ffffff !important;
+}
+
+.paper-box p,
+.paper-box .body {
+  color: #ffffff !important;
+}
+
+.paper-box .lead {
+  color: #d8e8f5 !important;
+}
+
+.paper-box .meta {
+  color: #a9c4d8 !important;
 }
